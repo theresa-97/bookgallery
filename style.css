@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+header{
+    background-color: rgb(80, 71, 71);
+    color: white;
+    justify-content: space-around;
+    display: flex;
+}
+header button{
+    height: 40px;
+    width: 80px;
+    margin-top: 5px;
+    border-radius: 10%;
+}
+.banner{
+    background-image: url(https://t4.ftcdn.net/jpg/06/88/66/31/360_F_688663136_CYDZXf10utvUG7QScsByISc5AaEDf68F.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+}
+section{
+    background-color: rgb(68, 67, 67);
+    color: white;
+    padding-top: 20PX;
+}
+.row{
+    height: 600px;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: space-between;
+    display: flex;
+
+}
+.col{
+    background-color: rgb(150, 131, 131);
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+img{
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 400px;
+}
+img:hover{
+    box-shadow: 2px 4px coral;
+}
+section span{
+    color: rgb(154, 8, 8);
+    font-size: 18px;
+}
+section button{
+    border-radius: 10px;
+    background-color: greenyellow;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    color: rgb(237, 7, 53);
+}
+section button:hover{
+    background-color: crimson;
+    color: greenyellow;
+}
+footer{
+    background-color:rgb(68, 67, 67) ;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 10px;
+}
+footer h4{
+    color: aliceblue;
+}
+@media screen and (max-width:400px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header{
+        width: 400px;
+        background-color: rgb(80, 71, 71);
+        color: white;
+        padding: 0px;
+    }
+    .row{
+        background-color: rgb(68, 67, 67) ;
+        width: 400px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        height: 600px;
+        width: 350px;
+        border: 3px solid black;
+        margin-left: 23px;
+    }
+    footer{
+        width: 400px;
+        background-color: rgb(68, 67, 67);
+        color: aliceblue;
+        padding: 0px;
+    }
+}

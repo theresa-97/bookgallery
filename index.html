@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwECBAUGAwj/xABFEAABAwMBBQMIBQkHBQAAAAABAAIDBAURBgcSITFBE1GBFCJhcZGhscEjMnKC0RYzNTZSU3SywhU0QkNiY5IkJdLh8P/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AnFERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQERWmRjXNa57Q531QTxKC5EymUBERARFTIQVRWskY/O45rsHBwc4KuQEREBERAREQEREBERAREQEREBEWLcq+ntlDPW1snZ08DC978ZwEGTlRRtrrJIqyzxQyPjkY2SQPYSCOLRzHqK3um9cO1Nqo0FBB2dvigfIZJB58hBaBw6Dzlx22iYv1NTRZ/NUoHtJQeOm9pd2tbmxXL/ALhSjgd7hIB6D18VLlg1Bbr/AEjam3Th7eT2EYcw9zh0+a+a1nWS71tjr2V1vk3Jm/WHSQdWuHcqPpvIzhVWl0rf6bUVpir6bzS7zZYicmN/UFYOvdVxaZtgLN19dPlsEZ97j6B8woMnVWrLXpqBprZS+oeMx00fF7/wHpKiDUW0C93kvjim8ipTkdlAcOI9LufwXNVtXUXCrlq62V0tRLkvkdxJ/BeCCatjVR2umqiIvc50VUcl3E8cFSAos2Hzf9PdoOnaMk92PkpTCAiIgIiICIiAiIgIiICIiAiIgxLlcqO1UxqbhUMp4AQN954ZPRcbri/UV32f3Kqtkxkh7QQb+6Rk7wzj2rw21zFmnqSEH87VDI9QJXOV0fkmxagbyNVUiQ+nMhI9wCC/YjHv325ykcY6Vg/5OP8A4rTbU5+31tW90bI2DwbxXTbC4Dv3ypPJwp4x4doT/MFw+tZxUatukgOQalwHgMfJBpEHNEVHdbILpJSak8g3j2NbGQR3OaOB+K0uvrq+76rrpnuJZC8wQt/ZY044es5PisjZn+utu+98Fpb7+nLh/EyfzFBgoiIJF2Jzbt8uEBP5yna4fdd/7UyjkoI2RzdlrWFpPCWnkZ8D8lO45KDSwaqss9zktjaxra2OV0RheCCXDu71ulB2qm/2dta7UcA6rglB+01oPzU4oCIiAiIgIiICIiAiIgIioUEU7dKgNFpgP+7L7AB81j7Q4vINnml6DPnN7MO8Ijn3lY+2Qms1XbqJpyewawD0vfj5LN21uayKyUw4bokdj1BoQbTYpF2WnK+oPJ9YePoaxo/FRHcZO2uNbKTnfqZHDxcVM+yqne3QDezx2k0lQ4bxwM7xA+AUaXLQmpre0vntrpW8y+mcJR7Bx9yDm0VXsdHIWSAtc3m0jB96oqOo2ZfrrbfvfBaW+/py4fxMn8xW62ZfrrbfvfBaW+/py4fxMn8xQYKJ+C9IIZamUQ08Uksp5MjbvO9gQbvQE/k+tbO/OAZyw/ea5vzX0WoJ0zobU39qUFe63inigqI5SZ5A07ocCeHPkp2HJQQrtjjNHrChrhwD6eN2fTG8k+4hTNA/fgjcDneaCor260u8y1VIH72In1gH+kqRNMz+VaettQDntKaM58EG0REQEREBERAREQEREBUPcqqhQQzqjFy2w01KPOMU0EePst7T5q7bdMDf7dD+7pHPP3n4/pWCbpRUW1evulxe5sENXIctbvHea0Rj4Le3fWui7hcBXVVnqK2pbGI2vljAw0EkDie9xQaDTW0etsNqp7cy300sUOcOLiHHJyfiuqodr1vkLW19tqYc83QubIB7cLBh19pBvD8mg1vXEEZWW3Umzu5YjrLdFT737ylx72oN3INHa7iMbJaaaox/h+jnb4HB+SjLWWiK/TLjO0uqrcfq1Aacs9DwBw9fL1LtpdA6avcPlemLj2EreLX082+1h9WchelDebrp+oZZNbxiooKn6GC44yx+eG6/u8ffzQcHszz+W1v9bv5Vpb6QL5cCcf3mTn9oqQqLSztM7S7cKcE26oL3U7v2OH1D6uno9S89FaSbedS3O63CPeoaetkbG08pZA74Dh48OhQa3RWzurvQZXXUvpKA8WMx9JN6QOjfT196l2y2O2WaAQ22jihA5uDfOPrPMrYDDW9wHuXP3TW+nbY8sqbpE6QcDHDmQg+CDo0UfVG1myRuIhpa2XHXcDfmvFm160k4fb6xo7/NKD32z04k0vFUY/MVTOPdnLfmtxszqRU6HtTgc7kbo/8Ag4t+S4/WWu7FqHTFXQwmpZUP3XRtfHwLgQeYK3uxqUP0aIh/k1UrfaQ/+pB3aIiAiIgIiICIiAiIgKhIB44VVRwyg+eKTTV81JX1dVQW+R0c9RJIJphuMO88nIJ58+i6q37Iat4BuF0ji6lsDCSD6ypdaABgDAHABVQR3Fsks7R9NW1sh64c1vyV0myWxkfRVVcz1vB+SkJEEUVGyeqo5xU2S9Ojnbxa5zSxw9TmlZrLtdqGlfadodsFRbpW7jq+Nm/GB/uY5fawFJSsewPaQ8Bw7iMoNLYbb2NvpqWpk8rjon71HUl28XR48wk9SAd3PXGeqx71e6HS1JFSU1PJU1km8YKKnG9I8k5LiByGTxJW6oqGChh7Gkj7KHJcIm/VaT0aOg9ASmoKannlqI4R5RMfpJncXu7gTzwOg5BBG1bpzWusCXXmqjttC7lRtcSMf6gOZ9Z8Asmk2QW2NjRU3GpeR0jY1o8FJQVUEfnZNYcYbUVwP22/gsKr2Q0bmk0V0njd0EjA4KTUQQXdtmGoKLedSiGtjHLsnbrj4H8V1WxhlRSUl4oKuCWCWOpZJuSsLSN5uM4PTzFJSsDRvF2OJ69UF6IiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIqEkYwgqi1097tlNWeR1FdTsqeGYt/zhn6uR0z6VsAUFUWup71bqmsdRwV1PJUAEmMSDewOfDrjqtgSA3J4BBVFrrde7ZdJHMt1dT1LmgFwifvYHetigIseiraauh7aiqIp4g5zC+N4cA5pwRw6gheVxutDa2sfcKuGmY84aZXbuT6EGaixbfcaS5QmagqYqiIO3S+J2RnuXq6oibUMpzIwTPaXtYTxLRjJx6Mj2oPVF41NTFSwumqJGxxNxl7zgDJwM+KSVMUc0cD5GiWTJYwni7HPCD2ReFVVQ0dM+oqpWRQxjL5HnDWjvXlb7nQ3Jjn0FVDUNad1xidnBQZiIiAiIgIiICIiAiIgK08wrlQjKDl9MVkFuppbfXv7G4GrmMgeDmYukcWvaeoLS3lyxjounCqWtPMZWJcqh1LTOlYWjGPrAkD2IOStUNSyeyOq919IKyo7JgjIdHL5+6SeoxvjpxIXaVGfJ3/AGT8FqTWVonbCTS7x3f8t+G72cZ7jwSS4VccU0jpKUMhj7R/mv4NBI+RQYWiKsSWykgdcWVD2Usf0Ii3HRYHVbXUVVNTWipNNnymRoigwOUjzutPgTnwVkM9fLTeURupdwtJHmPycKyKrrZ2wFhpMTNLmgtf05oNfpenmtFyqLbLC2KKSFk0AY4ubloDH8cczhp9ZK2+ogTYa/dyT2D8AdeCxm3GqeZcSUo7MPJJY/B3Tuux34PBJbhVx0wnmkpGRueGDLXZDicINnQ/3ODOc9m3OfUtZVg/lhbnAHHkFSCcf64evh7lU3CsFeKLtaUTnk3cfxGCefh8O9XVNZWUskTKiWjD5CAzzXcSXNb8XBBm3ShhuluqqCqbvQ1MTonj0OGCtBpGSquUhuFwa5s9PA2jeC3H0rfzrhnoXAYPXCz3XCsb5SS+mxTfnPNfw4Z8eavpq+eSama98BZUAubuMdnHyQW6t3hpyt3CWkMByBy4jjhe1kqxUwOIr2VhaQC9ke5u+jHt4rZ4B44TdHcgqiIgIiICIiAiIgIiICIiArJI2yNLZGhzTzBGQr0QeD6WF84mdEDKMYd14Zx7Mn2q3yKmxKOxZiYYkH7Q/wDiVkog82xMbF2bWhrMEYbwxleTaOnb2e7EB2RJZjIxnmslEGMKKnBkIhZ9ICHjvycn2lWigpOyEXYMLN8vwePE8ystEGP5JB2zJuxZ2jDlryOI4Y4H1cFfLBFK5rpI2uc3kSOXEH4gHwXqiDwFLADJiJv0v1wf8XrVopIGOiLYgDECGEcMA9FkogIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiD/2Q==">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!-- header -->
+     <header>
+        <h2>Book Gallery</h2>
+        <button>Login</button>
+     </header>
+     <!-- banner -->
+     <div class="banner">
+
+     </div>
+     <!-- section -->
+     <section>
+        <h3>Available Books</h3>
+        <div class="row">
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/I/81lZ-9E4F-S._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                <h4>The Diary of a Young Girl </h4>
+                <h5>price <span>$599</span></h5>
+                <button>BUY NOW</button>
+            </div>
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/I/81lZ-9E4F-S._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                <h4>The Diary of a Young Girl </h4>
+                <h5>price  <span>$599</span></h5>
+                <button >BUY NOW</button>   
+            </div>
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/I/81lZ-9E4F-S._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                <h4>The Diary of a Young Girl </h4>
+                <h5>price  <span>$599</span></h5>
+                <button>BUY NOW</button>
+            </div>
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/I/81lZ-9E4F-S._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                <h4>The Diary of a Young Girl </h4>
+                <h5>price <span>$599</span></h5>
+                <button >BUY NOW</button>
+            </div>
+        </div>
+     </section>
+     <!-- footer -->
+      <footer>
+       <div class="">
+        <h2>For contact</h2>
+        <h4>Facebook</h4>
+        <h4>Instagram</h4>
+        <h4>Twitter</h4>
+       </div>
+       <div class="">
+        <h2>Location</h2>
+        <h4>Kerala</h4>
+        <h4>Banglore</h4>
+        <h4>Mumbai</h4>
+       </div>
+      </footer>
+</body>
+</html>
